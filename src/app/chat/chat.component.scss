@@ -1,0 +1,49 @@
+.active-user {
+    background: beige;
+}
+.active-msg-box {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #c4c4c4;
+}
+.user-online {
+    background-color: #4cd137;
+    position: relative;
+    bottom: 10px;
+    height: 20px;
+    width: 20px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.user-offline {
+    background-color: gray;
+    position: relative;
+    bottom: 10px;
+    height: 20px;
+    width: 20px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.select-user {
+    display: inline-block;
+    margin: 0;
+}
+.last-seen {
+    display: block;
+    font-size: 8px;
+}
+.signin-user {
+    color: #05728F;
+    float: right;
+    a {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+.unread-message {
+    float: right;
+    border-radius: 58px;
+    background: #4cd137;
+    width: 24px;
+    text-align: center;
+}

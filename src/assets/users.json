@@ -1,0 +1,32 @@
+{
+    "HEAD-USER": [
+        {
+            "userId": "USER-1",
+            "nicknickname": "Praveen K",
+            "src": "https://ptetutorials.com/images/user-profile.png",
+            "connectionStatus": "ONLINE"
+        },
+        {
+            "userId": "USER-2",
+            "nickname": "User Two",
+            "src": "https://ptetutorials.com/images/user-profile.png",
+            "connectionStatus": "OFFLINE"
+        }
+    ],
+    "USER-1" : [
+        {
+            "userId": "HEAD-USER",
+            "nickname": "Head User",
+            "src": "https://ptetutorials.com/images/user-profile.png",
+            "connectionStatus": "ONLINE"
+        }
+    ],
+    "USER-2": [
+        {
+            "userId": "HEAD-USER",
+            "nickname": "Head User",
+            "src": "https://ptetutorials.com/images/user-profile.png",
+            "connectionStatus": "ONLINE"
+        }
+    ]
+}

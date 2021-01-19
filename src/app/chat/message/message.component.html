@@ -1,0 +1,10 @@
+<div [ngClass]="{'outgoing_msg' : message._sender.userId === userInfo.userId, 'received_withd_msg':
+                message._sender.userId !== userInfo.userId}">
+    <div [ngClass]="{'sent_msg':message._sender.userId === userInfo.userId ,
+        'received_withd_msg':message._sender.userId
+        === userInfo.userId}">
+
+        <p><label>{{message.message}}</label> <label class="msg-time">{{ getMessageTime(message.createdAt)}}</label></p>
+
+    </div>
+</div>
